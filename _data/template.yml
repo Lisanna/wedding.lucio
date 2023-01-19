@@ -5,7 +5,7 @@ color:
   secondary-dark: 333
   muted: 777
 
-# Fonf families
+# Font families
 font:
-  primary: 'Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif'
-  secondary: 'Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif'
+  primary: 'Playfair Display'
+  secondary: 'Fira Sans Light'

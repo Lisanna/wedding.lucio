@@ -244,8 +244,9 @@ fieldset[disabled] .btn-m.active {
 }
 
 .navbar-default .navbar-brand {
-    /*font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
-    font-family: "stay_classy_sldtregular","Helvetica Neue",Helvetica,Arial,cursive;
+    /*font-family: "stay_classy_sldtregular","Helvetica Neue",Helvetica,Arial,cursive;*/
+    /*font-family: "Playfair Display","Fira Sans Light";*/
+    font-family: {{ site.data.template.font.primary }};
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -306,7 +307,8 @@ fieldset[disabled] .btn-m.active {
 
 .brand {
     /*font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
-    font-family: "stay_classy_sldtregular","Helvetica Neue",Helvetica,Arial,cursive;
+    /*font-family: "stay_classy_sldtregular","Helvetica Neue",Helvetica,Arial,cursive;*/
+    font-family: {{ site.data.template.font.primary }};
     color: #{{ site.data.template.color.primary }};
     font-size: 2.5em;
 }
@@ -362,7 +364,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/backgrounds/header.gif'); 
+    background-image: url('{{ site.baseurl }}/img/backgrounds/header.jpeg');
     background-position: center center;
     /*background-position: top center;*/
     background-repeat: none;
@@ -380,8 +382,8 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     /*font-family: {{ site.data.template.font.secondary }};*/
-    /*font-family: {{ site.data.template.font.primary }};*/
-    font-family: 'Lato';
+    font-family: {{ site.data.template.font.primary }};
+    /*font-family: 'Lato';*/
     font-weight: 300;
     font-size: 22px;
     /*font-style: italic;*/
@@ -391,8 +393,8 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     /*text-transform: uppercase;*/
-    /*font-family: {{ site.data.template.font.primary }};*/
-    font-family: 'stay_classy_sldtregular';
+    font-family: {{ site.data.template.font.primary }};
+    /*font-family: 'stay_classy_sldtregular';*/
     text-shadow: 2px 2px 4px #000000;
     font-size: 75px;
     /*font-weight: 700;*/
@@ -405,7 +407,7 @@ header .intro-text .intro-heading {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/backgrounds/header.gif'); 
+    background-image: url('{{ site.baseurl }}/img/backgrounds/header.jpeg');
     /*background-position: center center;*/
     background-position: top center;
     background-repeat: none;
@@ -426,8 +428,8 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         /*font-family: {{ site.data.template.font.secondary }};*/
-        /*font-family: {{ site.data.template.font.primary }};*/
-        font-family: 'Lato';
+        font-family: {{ site.data.template.font.primary }};
+        /*font-family: 'Lato';*/
         font-weight: 300;
         font-size: 40px;
         /*font-style: italic;*/
@@ -437,8 +439,8 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 100px;
         /*text-transform: uppercase;*/
-        /*font-family: {{ site.data.template.font.primary }};*/
-        font-family: 'stay_classy_sldtregular';
+        font-family: {{ site.data.template.font.primary }};
+        /*font-family: 'stay_classy_sldtregular';*/
         text-shadow: 2px 2px 4px #000000;
         font-size: 75px;
         /*font-weight: 700;*/
