@@ -2,9 +2,9 @@ url: https://walice.github.io
 #baseurl: /wedding-template
 
 # Site settings
-title: Lisanna + Lucio
-email: petsgetmarried@wedding.com
-description: "Template for a wedding website."
+title: Lisanna & Lucio
+email: lisanna.paladin@gmail.com
+description: "My wedding website"
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 # social:
@@ -23,4 +23,4 @@ description: "Template for a wedding website."
 markdown: kramdown
 permalink: pretty
 
-include: ['_en_pages', '_fr_pages']
+include: ['_en_pages', '_it_pages']

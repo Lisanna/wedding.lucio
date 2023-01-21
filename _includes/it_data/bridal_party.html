@@ -1,14 +1,14 @@
 <!-- Bridal Party Section -->
-<section id="bridal_party">
+<section id="bridal_party" class="bg-light-gray">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Nos Témoins</h2>
+                <h2 class="section-heading">I nostri testimoni</h2>
             </div>
         </div>
         <div class="row">
-            {% for member in site.data.fr.bridalparty %}
-            <div class="col-sm-4">
+            {% for member in site.data.it.bridalparty %}
+            <div class="col-sm-3">
                 <div class="team-member">
                     <img src="../img/bridal/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
                     <h4>{{ member.name }}</h4>

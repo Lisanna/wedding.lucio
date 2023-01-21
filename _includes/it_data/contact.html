@@ -1,4 +1,4 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script>
     $(function(){
     $(".ajaxForm").submit(function(e){
@@ -11,7 +11,7 @@
             data: $(this).serialize(),
             success: function(response){
                 if(response.status == "success"){
-                    alert('Merci. Votre message a bien été envoyé.');
+                    alert('Grazie, il vostro messaggio è stato inviato.');
                     window.location.href = 'https://alicelepissier.com/wedding-template/fr/#contact';
                 }else{
                     alert("Une erreur est survenue: " + response.message);
@@ -31,7 +31,6 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <!-- Create your own form using FormCarry: https://formcarry.com/ -->
                 <form class="ajaxForm" action="YOUR_FORM_CARRY_ENDPOINT" method="POST">
                     <div class="row">
                         <div class="col-md-6">
@@ -57,6 +56,20 @@
                         </div>
                     </div>
                 </form>
+            </div>
+        </div>
+    </div>
+</section>-->
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Facci sapere se verrai</h2>
+                <h3 class="section-subheading text-muted">Per maggiori informazioni puoi
+                    inviare una mail a <a href="mailto:lisanna.paladin@gmail.com">Lisanna</a>.</h3>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe6WuxmD8o5dS90K-0AMD7MFOWKTJTf2Rj0MqoXJa1ahqXFTg/viewform?embedded=true"
+                        width="640" height="380" style="border:0;">Loading…</iframe>
             </div>
         </div>
     </div>

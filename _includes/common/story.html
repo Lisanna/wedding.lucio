@@ -1,0 +1,65 @@
+<style>
+    .rowstory {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    /* Create four equal columns that sits next to each other */
+    .columnstory {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+    }
+
+    .columnstory img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+        .columnstory {
+            flex: 50%;
+            max-width: 50%;
+        }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .columnstory {
+            flex: 100%;
+            max-width: 100%;
+        }
+    }
+</style>
+
+<html>
+    <div class="rowstory">
+    <div class="columnstory">
+        <img src="../img/story/col1-row1.jpg">
+        <img src="../img/story/col1-row2.jpg">
+        <img src="../img/story/col1-row3.jpg">
+        <img src="../img/story/col1-row4.jpg">
+    </div>
+    <div class="columnstory">
+        <img src="../img/story/col2-row1.jpg">
+        <img src="../img/story/col2-row2.jpg">
+        <img src="../img/story/col2-row3.jpg">
+        <img src="../img/story/col2-row4.jpg">
+    </div>
+    <div class="columnstory">
+        <img src="../img/story/col3-row1.jpg">
+        <img src="../img/story/col3-row2.jpg">
+        <img src="../img/story/col3-row3.jpg">
+        <img src="../img/story/col3-row4.jpg">
+    </div>
+    <div class="columnstory">
+        <img src="../img/story/col4-row1.jpg">
+        <img src="../img/story/col4-row2.jpg">
+        <img src="../img/story/col4-row3.jpg">
+        <img src="../img/story/col4-row4.jpg">
+    </div>
+</div>
+</html>
