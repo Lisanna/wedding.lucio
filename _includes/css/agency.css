@@ -310,7 +310,7 @@ fieldset[disabled] .btn-m.active {
     /*font-family: "stay_classy_sldtregular","Helvetica Neue",Helvetica,Arial,cursive;*/
     font-family: {{ site.data.template.font.primary }};
     color: #{{ site.data.template.color.primary }};
-    font-size: 2.5em;
+    font-size: 5vh;
 }
 
 .brand {
@@ -372,7 +372,7 @@ header {
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/backgrounds/header.jpeg');
     opacity: 0.8;
-    background-position: left center;
+    background-position: bottom right;
     /*background-position: top center;*/
     background-repeat: none;
     -webkit-background-size: cover;
@@ -815,10 +815,13 @@ aside.clients img {
 section#contact {
     background-color: #222;
     background-image: url('{{ site.baseurl }}/img/backgrounds/sfondo.jpeg ');
-    background-size: 100% 100%;
     opacity: 0.8;
-    background-position: center;
+    background-position: bottom center;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 section#contact .section-heading {
