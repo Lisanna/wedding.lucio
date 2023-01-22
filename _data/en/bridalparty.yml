@@ -1,23 +1,15 @@
-- name: Name
+- name: Valentino
   pic: 1
-  position: Role
+  position: Testimone dello sposo
 
-- name: Name
-  pic: 2
-  position: Role
-
-- name: Name
+- name: Massimo
   pic: 3
-  position: Role
+  position: Testimone dello sposo
 
-- name: Name
+- name: Milena
   pic: 4
-  position: Role
+  position: Testimone della sposa
 
-- name: Name
-  pic: 5
-  position: Role
-
-- name: Name
+- name: Viola
   pic: 6
-  position: Role
+  position: Testimone della sposa
