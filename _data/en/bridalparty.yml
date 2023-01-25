@@ -1,15 +1,15 @@
-- name: Valentino
+- name: Massimo Scolaro
   pic: 1
-  position: Testimone dello sposo
+  position: Groom's testimony
 
-- name: Massimo
-  pic: 3
-  position: Testimone dello sposo
+- name: Milena Paladin
+  pic: Milena
+  position: Bride's testimony
 
-- name: Milena
+- name: Valentino Scolaro
   pic: 4
-  position: Testimone della sposa
+  position: Groom's testimony
 
-- name: Viola
-  pic: 6
-  position: Testimone della sposa
+- name: Viola Ferraresi
+  pic: Viola
+  position: Bride's testimony

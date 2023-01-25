@@ -581,7 +581,7 @@ section h3.section-subheading {
 }
 
 .timeline {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/two-columns-1.png');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/two-columns-3.png');
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
@@ -813,7 +813,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: #{{ site.data.template.color.background }};
     background-image: url('{{ site.baseurl }}/img/backgrounds/sfondo.jpeg ');
     opacity: 0.8;
     background-position: bottom center;
@@ -822,13 +822,10 @@ section#contact {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    color: #{{ site.data.template.color.primary }};;
 }
 
-section#contact .section-heading {
-    color: #fff;
-}
-
-section#contact .form-group {
+/*section#contact .form-group {
     margin-bottom: 25px;
 }
 
@@ -880,7 +877,7 @@ section#contact:-ms-input-placeholder {
 
 section#contact .text-danger {
     color: #e74c3c;
-}
+}*/
 
 footer {
     padding: 25px 0;
